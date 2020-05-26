@@ -1,4 +1,4 @@
-package ru.alishev.springcourse;
+package knyrik.springcourse;
 
 public enum GenreOfMusic {
     CLASSICAL,

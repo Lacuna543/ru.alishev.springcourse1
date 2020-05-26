@@ -1,4 +1,4 @@
-package ru.alishev.springcourse;
+package knyrik.springcourse;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package ru.alishev.springcourse;
+package knyrik.springcourse;
 
 
 import org.springframework.context.annotation.Bean;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Configuration
-//@ComponentScan("ru.alishev.springcourse")
+//@ComponentScan("knyrik.springcourse")
 @PropertySource("classpath:musicPlayer.properties")
 public class SpringConfig {
 

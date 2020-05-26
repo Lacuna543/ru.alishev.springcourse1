@@ -1,26 +1,20 @@
-package ru.alishev.springcourse;
+package knyrik.springcourse;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class RapMusic implements MusicLib {
 
+public class RockMusic implements MusicLib {
     private List<String> songs = new ArrayList<>();
     Random random = new Random();
 
     {
-
-        songs.add("Without me");
-        songs.add("Akule plevat'");
-        songs.add("skandalouz");
-
+        songs.add("Wind cries Mary"); // 0
+        songs.add("The roof is on Fire"); // 1
+        songs.add("Hunger Of The Pine"); // 2
 
     }
-
-//    public List<String> getSong(int index) {
-//        return songs;
-//    }
 
     @Override
     public List<String> getSong() {

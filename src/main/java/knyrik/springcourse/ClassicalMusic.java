@@ -1,7 +1,4 @@
-package ru.alishev.springcourse;
-
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
+package knyrik.springcourse;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
