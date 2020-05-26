@@ -28,17 +28,16 @@ public class SpringConfig {
         return new RapMusic();
     }
 
-
     @Bean
     public List<MusicLib> musicList() {
         return Arrays.asList(rockMusic(), classicalMusic(), rapMusic());
     }
 
     @Bean
-
-    public MusicPlayer musicPlayer(){
+    public MusicPlayer musicPlayer() {
         return new MusicPlayer(musicList());
     }
+
     @Bean
     public Computer computer() {
         return new Computer(musicPlayer());
