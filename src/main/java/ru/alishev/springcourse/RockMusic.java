@@ -25,6 +25,6 @@ public class RockMusic implements MusicLib {
 
 
     public String getRandomSong() {
-        return songs.get(random.nextInt(songs.size() ));
+        return songs.get(random.nextInt(songs.size()));
     }
 }

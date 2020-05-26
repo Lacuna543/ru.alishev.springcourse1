@@ -18,17 +18,18 @@ public class ClassicalMusic implements MusicLib {
     {
         /* public int index = rand.nextInt(songs.size());*/
         songs.add("Hungarian Rhapsody");
-        songs.add("Another Rhapsody");
-        songs.add("And Another Rhapsody");
+        songs.add("Symphony No. 6");
+        songs.add("Requiem");
 
     }
 
-@PostConstruct
-    public  void doMyInit(){
-    System.out.println("Doing my initialization");
-}
-@PreDestroy
-    public  void doMyDestroy(){
+    @PostConstruct
+    public void doMyInit() {
+        System.out.println("Doing my initialization");
+    }
+
+    @PreDestroy
+    public void doMyDestroy() {
         System.out.println("Doing my destroy");
     }
 
@@ -39,7 +40,7 @@ public class ClassicalMusic implements MusicLib {
 
     @Override
     public String getRandomSong() {
-        return songs.get(random.nextInt(songs.size() ));
+        return songs.get(random.nextInt(songs.size()));
     }
 }
             

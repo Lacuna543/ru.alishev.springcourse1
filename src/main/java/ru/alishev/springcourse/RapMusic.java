@@ -13,7 +13,7 @@ public class RapMusic implements MusicLib {
 
         songs.add("Without me");
         songs.add("Akule plevat'");
-        songs.add("2pack");
+        songs.add("skandalouz");
 
 
     }
@@ -29,6 +29,6 @@ public class RapMusic implements MusicLib {
 
 
     public String getRandomSong() {
-        return songs.get(random.nextInt(songs.size() ));
+        return songs.get(random.nextInt(songs.size()));
     }
 }
